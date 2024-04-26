@@ -1,0 +1,169 @@
+/* Write some CSS below */
+body{
+background-color: #DCD3CB;
+font-size: 18px;
+color: #372C27;
+font-family: 'Times New Roman', Times, serif;
+}
+
+h1,h2{
+font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+font-size: 34px;
+font-weight: 900;
+}
+
+h2{
+font-size: 24px;
+color: #66554D;
+font-weight: 600;
+}
+
+h3{
+    font-size: 21px;
+    font-family: 'Times New Roman', Times;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color:#EDD3C7;
+    color: #A48374;
+    }
+
+.card-white{
+background-color: #F1EDE6;
+border-radius: 5px;
+box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+margin: 40px 0;
+padding: 40px;
+text-align: center;
+width: 700px;
+}
+
+.img-circle{
+border-radius: 50%;
+width: 200px;
+height: 200px;
+object-fit: cover
+
+;
+}
+
+.container{
+width: 700px;
+margin: 20px auto;
+}
+
+.button-blue{
+    color:white;
+    background-color:#A48374;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.button-red{
+    color: #3A2D28;
+    background-color: #DFCABF;
+    border-radius:  10px;
+    padding: 5px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+#introduction p{
+    margin-bottom: 30px;
+}
+
+.list-inline{
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li{
+    display: inline;
+}
+
+.list-inline li i{
+  font-size: 40px;
+  color: #3A2D28;  
+  margin: 0 5px;
+  text-align: center;
+}
+
+.list-inline li i:hover{
+    opacity: 0.7;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.card{
+background-color:#BBA093;
+border-radius: 5px;
+box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+padding: 20px;
+width: 150px;
+font-size: 18px;
+padding-top: 15px;
+}
+
+.card h2{
+margin-top: 0;
+color: white;
+}
+
+.card img{
+border-radius: 80%;
+width: 100px;
+height: 100px;
+object-fit: cover;
+}
+
+.card .content{
+margin-top: 10px;
+color: white;
+}
+
+.section-white{
+    background-color: #F1EDE6;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    margin: 40px 0;
+    padding: 40px;
+    text-align: center;
+    width: 700px;
+    padding-top: 15px;
+}
+
+.container{
+    margin: 20px auto;
+    width: 700px;
+}
+
+.mycards{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 16px;
+}
+
+.card{
+    background-color:#BBA093;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+}
+
+
